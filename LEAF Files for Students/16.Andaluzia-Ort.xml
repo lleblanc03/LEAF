@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -20,8 +17,27 @@
 		<body>
 			<pb facs="https://raw.githubusercontent.com/kmabennett/LEAF/refs/heads/main/16-Andaluzia-Ort-1.jpg"/>
 			<div>
-				<head>Replace with your title.</head>
-				<p>Replace with your text.</p></div>
+				<head>ANDALVZIA</head>
+				<p>THis countrie hath on the eaſt ſyde Granda, on the weſt Algarbe, on the 
+north the prouince called Magistratus S. Iacobi, and on the ſouth the ſtraight 
+and begining of the Mediteraneum sea, comonly called the ſtraight of Gibraltar.
+On either ſyde this ſtraight are two moſte high mountaines, to wit, Gibraltar in 
+Andaluzia whereof the ſtraight taketh name, and Abyla in Mauritania. Theſe 
+two mountaines are of many called the columnes of Hercules, yet there are that 
+affirme the columnes of Hercules to haue bin two pillers of braſſe in the tem-
+ple of Hercules, which was in the Ile of Gades, now called Cadiz or Cales in which 
+they ſay was grauen the charges which the building of the ſaid temple did 
+coſte, howbeit the certainty is altogether vncertaine, whether the two pillers 
+of Hercules were theſe two mountaines, or two artificial pillers of braſſe.
+	This country of Andezulia is the moſte ferril parte of all Spaine, for aboun-
+dance of all ſortes of fruits and great plenty of other neceſſary thinges.
+	The inhabitants are courteous and ciuil, and very opulent. It is repleniſhed 
+with almoſte 100 fyne townes, but the great and ritch citie of Siuil is the Chiefeſt
+citie of all this prouince. 
+	The name it hath of Andezulia is growne but by corruption, for the right 
+name is Vandaqulia, of the Vandales, that heere made there habitation, when by 
+the Gubes they were chaſed out of other partes. 
+</p></div>
 		</body>
 	</text>
 </TEI>
