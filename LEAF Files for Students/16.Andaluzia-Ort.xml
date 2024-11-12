@@ -609,7 +609,7 @@
 	"id": "https://raw.githubusercontent.com/lleblanc03/LEAF/main/LEAF%20Files%20for%20Students/16.Andaluzia-Ort.xml?person_annotation_20241112141026929",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-11-12T19:10:26.929Z",
-	"dcterms:modified": "2024-11-12T19:14:14.898Z",
+	"dcterms:modified": "2024-11-12T19:14:45.105Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/lleblanc03",
 		"@type": [
@@ -692,7 +692,7 @@
 	"id": "https://raw.githubusercontent.com/lleblanc03/LEAF/main/LEAF%20Files%20for%20Students/16.Andaluzia-Ort.xml?person_annotation_20241112141054089",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-11-12T19:10:54.089Z",
-	"dcterms:modified": "2024-11-12T19:10:54.089Z",
+	"dcterms:modified": "2024-11-12T19:14:59.406Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/lleblanc03",
 		"@type": [
@@ -724,7 +724,7 @@
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "http://www.wikidata.org/entity/Q122248",
+		"@id": "http://www.wikidata.org/entity/Q240679",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -771,7 +771,7 @@
 	"id": "https://raw.githubusercontent.com/lleblanc03/LEAF/main/LEAF%20Files%20for%20Students/16.Andaluzia-Ort.xml?person_annotation_20241112141150310",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-11-12T19:11:50.310Z",
-	"dcterms:modified": "2024-11-12T19:11:50.310Z",
+	"dcterms:modified": "2024-11-12T19:15:13.053Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/lleblanc03",
 		"@type": [
@@ -806,7 +806,7 @@
 			"schema:Person",
 			"cwrc:FictionalPerson"
 		],
-		"@id": "http://www.wikidata.org/entity/Q122248",
+		"@id": "http://www.wikidata.org/entity/Q240679",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -910,8 +910,8 @@ north the prouince called Magistratus S. Iacobi, &amp; on the ſouth the ſtraig
 On either ſyde this ſtraight are two moſte high mountaines, to wit, <placeName key="Gibraltar" ref="http://www.wikidata.org/entity/Q1410">Gibraltar<precision match="@ref" precision="medium"/></placeName> in 
 <placeName key="Andalusia" ref="http://www.wikidata.org/entity/Q5783" cert="medium">Andaluzia</placeName> whereof the ſtraight taketh name, &amp; <placeName key="Abyla" ref="http://www.wikidata.org/entity/Q28219770">Abyla</placeName> in Mauritania. Theſe 
 two mountaines are of many called the columnes of <persName key="Hercules" ref="http://www.wikidata.org/entity/Q240679" cert="medium" type="fictional">Hercules</persName>, yet there are that 
-affirme the columnes of <persName key="Heracles" ref="http://www.wikidata.org/entity/Q122248">Hercules</persName> to haue bin two pillers of braſſe in the tem-
-ple of <persName key="Heracles" ref="http://www.wikidata.org/entity/Q122248" cert="medium" type="fictional">Hercules</persName>, which was in the Ile of Gades, now called Cadiz or Cales in which 
+affirme the columnes of <persName key="Hercules" ref="http://www.wikidata.org/entity/Q240679">Hercules</persName> to haue bin two pillers of braſſe in the tem-
+ple of <persName key="Hercules" ref="http://www.wikidata.org/entity/Q240679" cert="medium" type="fictional">Hercules</persName>, which was in the Ile of Gades, now called Cadiz or Cales in which 
 they ſay was grauen the charges which the building of the ſaid temple did 
 coſte, howbeit the certainty is altogether vncertaine, whether the two pillers 
 of <persName key="Heracles" ref="http://www.wikidata.org/entity/Q122248">Hercules</persName> were theſe two mountaines, or two artificial pillers of braſſe.
