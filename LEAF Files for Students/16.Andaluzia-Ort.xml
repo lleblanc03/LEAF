@@ -1851,6 +1851,84 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/lleblanc03/LEAF/main/LEAF%20Files%20for%20Students/16.Andaluzia-Ort.xml?date_annotation_20241112151905261",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-12T20:19:05.261Z",
+	"dcterms:modified": "2024-11-12T20:19:05.261Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/lleblanc03",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Lindsey LeBlanc"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/lleblanc03/LEAF/main/LEAF%20Files%20for%20Students/16.Andaluzia-Ort.xml?date_annotation_20241112151905261#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/lleblanc03/LEAF/main/LEAF%20Files%20for%20Students/16.Andaluzia-Ort.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/lleblanc03/LEAF/main/LEAF%20Files%20for%20Students/16.Andaluzia-Ort.xml?date_annotation_20241112151905261#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[7]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1527/1598"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -1873,7 +1951,7 @@ dance of all ſortes of fruits &amp; great plenty of other neceſſary thinges.<
 with almoſte 100 fyne townes, but the great &amp; ritch citie of <placeName key="Seville" ref="http://www.wikidata.org/entity/Q8717" cert="high">Siuil<precision match="@ref" precision="high"/></placeName> is the Chiefeſt
 citie of all this prouince. </p><p>	The name it hath of <placeName key="Andalusia" ref="http://www.wikidata.org/entity/Q5783">Andezulia</placeName> is growne but by corruption, for the right 
 name is <placeName key="Spain" ref="http://vocab.getty.edu/tgn/2683005">Vandaqulia</placeName>, of the <placeName key="Vandals" ref="http://www.wikidata.org/entity/Q42211" cert="low">Vandales<precision match="@ref" precision="low"/></placeName>, that heere made there habitation, when by 
-the <placeName key="Gadeira" ref="http://www.wikidata.org/entity/Q5890310">Gades</placeName> they were chaſed out of other partes. </p><p/><p/><p><persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" role="Author" xml:space="default">Ortelius, Abraham</persName>, 1527-1598. <title level="m">An epitome of Ortelius his Theater of the vvorld</title>, vvherein the principal regions of the earth are descrived in smalle mappes. VVith a brief declaration annexed to ech mappe. And donne in more exact manner, then lyke declarations in Latin, French, or other languages. It is also amplyfied with new mappes wanting in the Latin editions. Antwerp: Iohn Norton, 1601. STC 18857. ProQuest, https://www.proquest.com/books/epitome-ortelius-his-theater-vvorld-vvherein/docview/2240904399/se-2. 
+the <placeName key="Gadeira" ref="http://www.wikidata.org/entity/Q5890310">Gades</placeName> they were chaſed out of other partes. </p><p/><p/><p><persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" role="Author" xml:space="default">Ortelius, Abraham</persName>, <date from="1527" to="1598" cert="high" type="Creation Range">1527-1598</date>. <title level="m">An epitome of Ortelius his Theater of the vvorld</title>, vvherein the principal regions of the earth are descrived in smalle mappes. VVith a brief declaration annexed to ech mappe. And donne in more exact manner, then lyke declarations in Latin, French, or other languages. It is also amplyfied with new mappes wanting in the Latin editions. Antwerp: Iohn Norton, 1601. STC 18857. ProQuest, https://www.proquest.com/books/epitome-ortelius-his-theater-vvorld-vvherein/docview/2240904399/se-2. 
 </p><p/><p/></div>
 		</body>
 	</text>
