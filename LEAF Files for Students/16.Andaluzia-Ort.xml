@@ -854,7 +854,7 @@
 	"id": "https://raw.githubusercontent.com/lleblanc03/LEAF/main/LEAF%20Files%20for%20Students/16.Andaluzia-Ort.xml?person_annotation_20241112141205146",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-11-12T19:12:05.146Z",
-	"dcterms:modified": "2024-11-12T19:12:05.146Z",
+	"dcterms:modified": "2024-11-12T19:15:28.974Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/lleblanc03",
 		"@type": [
@@ -886,7 +886,7 @@
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "http://www.wikidata.org/entity/Q122248",
+		"@id": "http://www.wikidata.org/entity/Q240679",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -896,6 +896,87 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.6.0"
 	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/lleblanc03/LEAF/main/LEAF%20Files%20for%20Students/16.Andaluzia-Ort.xml?place_annotation_20241112141548247",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-12T19:15:48.247Z",
+	"dcterms:modified": "2024-11-12T19:15:48.247Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/lleblanc03",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Lindsey LeBlanc"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/lleblanc03/LEAF/main/LEAF%20Files%20for%20Students/16.Andaluzia-Ort.xml?place_annotation_20241112141548247#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/lleblanc03/LEAF/main/LEAF%20Files%20for%20Students/16.Andaluzia-Ort.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/lleblanc03/LEAF/main/LEAF%20Files%20for%20Students/16.Andaluzia-Ort.xml?place_annotation_20241112141548247#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p/placeName[9]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q1025",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:medium",
+	"cwrc:hasPrecision": "cwrc:mediumCertainty"
 }]]>
         </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
@@ -908,13 +989,13 @@
 north the prouince called Magistratus S. Iacobi, &amp; on the ſouth the ſtraight 
 &amp; begining of the <placeName key="Mediterranean Sea" ref="http://www.wikidata.org/entity/Q4918" cert="high">Mediteraneum sea<precision match="@ref" precision="medium"/></placeName>, comonly called the ſtraight of <placeName key="Gibraltar" ref="http://www.wikidata.org/entity/Q1410" cert="medium">Gibraltar</placeName>.
 On either ſyde this ſtraight are two moſte high mountaines, to wit, <placeName key="Gibraltar" ref="http://www.wikidata.org/entity/Q1410">Gibraltar<precision match="@ref" precision="medium"/></placeName> in 
-<placeName key="Andalusia" ref="http://www.wikidata.org/entity/Q5783" cert="medium">Andaluzia</placeName> whereof the ſtraight taketh name, &amp; <placeName key="Abyla" ref="http://www.wikidata.org/entity/Q28219770">Abyla</placeName> in Mauritania. Theſe 
+<placeName key="Andalusia" ref="http://www.wikidata.org/entity/Q5783" cert="medium">Andaluzia</placeName> whereof the ſtraight taketh name, &amp; <placeName key="Abyla" ref="http://www.wikidata.org/entity/Q28219770">Abyla</placeName> in <placeName key="Mauritania" ref="http://www.wikidata.org/entity/Q1025" cert="medium">Mauritania<precision match="@ref" precision="medium"/></placeName>. Theſe 
 two mountaines are of many called the columnes of <persName key="Hercules" ref="http://www.wikidata.org/entity/Q240679" cert="medium" type="fictional">Hercules</persName>, yet there are that 
 affirme the columnes of <persName key="Hercules" ref="http://www.wikidata.org/entity/Q240679">Hercules</persName> to haue bin two pillers of braſſe in the tem-
 ple of <persName key="Hercules" ref="http://www.wikidata.org/entity/Q240679" cert="medium" type="fictional">Hercules</persName>, which was in the Ile of Gades, now called Cadiz or Cales in which 
 they ſay was grauen the charges which the building of the ſaid temple did 
 coſte, howbeit the certainty is altogether vncertaine, whether the two pillers 
-of <persName key="Heracles" ref="http://www.wikidata.org/entity/Q122248">Hercules</persName> were theſe two mountaines, or two artificial pillers of braſſe.
+of <persName key="Hercules" ref="http://www.wikidata.org/entity/Q240679">Hercules</persName> were theſe two mountaines, or two artificial pillers of braſſe.
 </p><p>	This country of Andezulia is the moſte ferril parte of all Spaine, for aboun-
 dance of all ſortes of fruits &amp; great plenty of other neceſſary thinges.
 </p><p>	The inhabitants are courteous &amp; ciuil, &amp; very opulent. It is repleniſhed 
