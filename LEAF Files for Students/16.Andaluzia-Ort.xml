@@ -172,13 +172,94 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/lleblanc03/LEAF/main/LEAF%20Files%20for%20Students/16.Andaluzia-Ort.xml?place_annotation_20241112140453920",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-12T19:04:53.920Z",
+	"dcterms:modified": "2024-11-12T19:04:53.920Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/lleblanc03",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Lindsey LeBlanc"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/lleblanc03/LEAF/main/LEAF%20Files%20for%20Students/16.Andaluzia-Ort.xml?place_annotation_20241112140453920#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/lleblanc03/LEAF/main/LEAF%20Files%20for%20Students/16.Andaluzia-Ort.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/lleblanc03/LEAF/main/LEAF%20Files%20for%20Students/16.Andaluzia-Ort.xml?place_annotation_20241112140453920#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p/placeName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://dbpedia.org/resource/Algarve",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:low",
+	"cwrc:hasPrecision": "cwrc:mediumCertainty"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<pb facs="https://raw.githubusercontent.com/kmabennett/LEAF/refs/heads/main/16-Andaluzia-Ort-1.jpg"/>
 			<div>
 				<head>ANDALVZIA</head>
-				<p>THis <placeName key="Andalusia" ref="http://www.wikidata.org/entity/Q5783" cert="medium">countrie<precision match="@ref" precision="medium"/></placeName> hath on the eaſt ſyde <placeName key="Granada city" ref="http://www.wikidata.org/entity/Q31916723">Granada</placeName>, on the weſt Algarbe, on the 
+				<p>THis <placeName key="Andalusia" ref="http://www.wikidata.org/entity/Q5783" cert="medium">countrie<precision match="@ref" precision="medium"/></placeName> hath on the eaſt ſyde <placeName key="Granada city" ref="http://www.wikidata.org/entity/Q31916723">Granada</placeName>, on the weſt <placeName key="Algarve" ref="http://dbpedia.org/resource/Algarve" cert="low">Algarbe<precision match="@ref" precision="medium"/></placeName>, on the 
 north the prouince called Magistratus S. Iacobi, &amp; on the ſouth the ſtraight 
 &amp; begining of the Mediteraneum sea, comonly called the ſtraight of Gibraltar.
 On either ſyde this ſtraight are two moſte high mountaines, to wit, Gibraltar in 
