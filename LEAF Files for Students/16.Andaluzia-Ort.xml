@@ -1132,6 +1132,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/lleblanc03/LEAF/main/LEAF%20Files%20for%20Students/16.Andaluzia-Ort.xml?place_annotation_20241112143141805",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-12T19:31:41.805Z",
+	"dcterms:modified": "2024-11-12T19:31:41.805Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/lleblanc03",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Lindsey LeBlanc"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/lleblanc03/LEAF/main/LEAF%20Files%20for%20Students/16.Andaluzia-Ort.xml?place_annotation_20241112143141805#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/lleblanc03/LEAF/main/LEAF%20Files%20for%20Students/16.Andaluzia-Ort.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/lleblanc03/LEAF/main/LEAF%20Files%20for%20Students/16.Andaluzia-Ort.xml?place_annotation_20241112143141805#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p/placeName[11]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q15682",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -1145,7 +1224,7 @@ On either ſyde this ſtraight are two moſte high mountaines, to wit, <placeNam
 <placeName key="Andalusia" ref="http://www.wikidata.org/entity/Q5783" cert="medium">Andaluzia</placeName> whereof the ſtraight taketh name, &amp; <placeName key="Abyla" ref="http://www.wikidata.org/entity/Q28219770"><placeName key="Abyla" ref="http://www.wikidata.org/entity/Q28219770">Abyla</placeName></placeName> in <placeName key="Mauritania" ref="http://www.wikidata.org/entity/Q1025" cert="medium">Mauritania<precision match="@ref" precision="medium"/></placeName>. Theſe 
 two mountaines are of many called the columnes of <persName key="Hercules" ref="http://www.wikidata.org/entity/Q240679" cert="medium" type="fictional">Hercules</persName>, yet there are that 
 affirme the columnes of <persName key="Hercules" ref="http://www.wikidata.org/entity/Q240679">Hercules</persName> to haue bin two pillers of braſſe in the tem-
-ple of <persName key="Hercules" ref="http://www.wikidata.org/entity/Q240679" cert="medium" type="fictional">Hercules</persName>, which was in the <placeName key="Gadeira" ref="http://www.wikidata.org/entity/Q5890310">Ile of Gades</placeName>, now called Cadiz or Cales in which 
+ple of <persName key="Hercules" ref="http://www.wikidata.org/entity/Q240679" cert="medium" type="fictional">Hercules</persName>, which was in the <placeName key="Gadeira" ref="http://www.wikidata.org/entity/Q5890310">Ile of Gades</placeName>, now called <placeName key="Cádiz" ref="http://www.wikidata.org/entity/Q15682">Cadiz</placeName> or Cales in which 
 they ſay was grauen the charges which the building of the ſaid temple did 
 coſte, howbeit the certainty is altogether vncertaine, whether the two pillers 
 of <persName key="Hercules" ref="http://www.wikidata.org/entity/Q240679">Hercules</persName> were theſe two mountaines, or two artificial pillers of braſſe.
